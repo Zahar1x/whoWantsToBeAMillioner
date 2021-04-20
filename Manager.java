@@ -5,7 +5,7 @@ public class Manager {
     /**
      * основной метод программы
      */
-    public static void main(String[] args) {
+    public void main(String[] args) {
         System.out.println("Main method");
     }
 
@@ -19,7 +19,7 @@ public class Manager {
     /**
      * Этот метод позволяет присоединить друга для игры вдвоем
      */
-    public void connectPeople() {
+    public void connectPlayers() {
         System.out.println("Connect people method");
     }
 

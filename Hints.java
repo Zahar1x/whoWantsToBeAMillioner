@@ -5,7 +5,7 @@ public class Hints {
     /**
      * Этот метод позволяет использовать подсказку ведущего
      */
-    public void useleadingHint() {
+    public void useleadingsHint() {
         System.out.println("Use leading hint method");
     }
 
