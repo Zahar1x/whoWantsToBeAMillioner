@@ -5,7 +5,7 @@ public class Manager {
     /**
      * основной метод программы
      */
-    public void main(String[] args) {
+    public static void  main(String[] args) {
         System.out.println("Main method");
     }
 
