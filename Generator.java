@@ -1,6 +1,9 @@
 package ru.mai.whoWantsToBeAMillioner;
 
 public class Generator {
+
+    private String[] question;
+
     /**
      * Этот метод генерирует первую часть вопросов
      */

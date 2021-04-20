@@ -2,6 +2,8 @@ package ru.mai.whoWantsToBeAMillioner;
 
 public class Manager {
 
+    private int prize;
+
     /**
      * основной метод программы
      */

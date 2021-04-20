@@ -2,6 +2,8 @@ package ru.mai.whoWantsToBeAMillioner;
 
 public class Hints {
 
+    private int hintType;
+
     /**
      * Этот метод позволяет использовать подсказку ведущего
      */
