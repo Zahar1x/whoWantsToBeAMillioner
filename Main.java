@@ -1,9 +1,14 @@
 package ru.mai.whoWantsToBeAMillioner;
 
 public class Main {
-    public static void  main(String[] args) {
+
+    /**
+     * основной метод программы
+     * @param args
+     */
+    public static void main(String[] args) {
+        System.out.println("Main method");
         Manager manager = new Manager();
         manager.startGame();
-        System.out.println("Main method");
     }
 }
