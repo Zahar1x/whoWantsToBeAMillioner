@@ -2,6 +2,9 @@ package ru.mai.whoWantsToBeAMillioner;
 
 import java.util.ArrayList;
 
+/**
+ * Этот класс генерирует вопросы и ответы к ним
+ */
 public class Generator {
 
     /**

@@ -2,6 +2,9 @@ package ru.mai.whoWantsToBeAMillioner;
 
 import java.util.ArrayList;
 
+/**
+ * Этот класс принимает ответ на вопрос от игрока, проверяет его и выдает результат
+ */
 public class Answers {
 
     /**

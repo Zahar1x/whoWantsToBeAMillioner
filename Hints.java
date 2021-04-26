@@ -1,10 +1,33 @@
 package ru.mai.whoWantsToBeAMillioner;
 
+/**
+ * Этот класс позволяет игроку использовать подсказки для ответа на вопрос
+ */
 public class Hints {
+
+    /**
+     * Это поле хранит количество использований подсказки от ведущего
+     */
     private int useleadingsHintCounter = 0;
+
+    /**
+     * Это поле хранит количество использований подсказки замена вопроса
+     */
     private int useChangeQuestionHintCounter = 0;
+
+    /**
+     * Это поле хранит количество использований подсказки 50 на 50
+     */
     private int useFiftyFiftyHintCounter = 0;
+
+    /**
+     * Это поле хранит количество использований подсказки право на ошибку
+     */
     private int useOneMistakeRuleHintCounter = 0;
+
+    /**
+     * Это поле хранит количество использований подсказки звонок другу
+     */
     private int useCallToFriendHintCounter = 0;
 
     /**

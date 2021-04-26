@@ -3,6 +3,9 @@ package ru.mai.whoWantsToBeAMillioner;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+/**
+ * Этот класс управляет игрой
+ */
 public class Manager {
 
     /**
