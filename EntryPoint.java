@@ -1,6 +1,9 @@
 package ru.mai.whoWantsToBeAMillioner;
 
-public class Main {
+/**
+ * Этот класс является точкой входа в программу
+ */
+public class EntryPoint {
 
     /**
      * основной метод программы
