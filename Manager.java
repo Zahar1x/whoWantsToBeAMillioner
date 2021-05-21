@@ -9,6 +9,11 @@ import java.util.Scanner;
 public class Manager {
 
     /**
+     *
+     */
+    private Answers answer = new Answers();
+
+    /**
      * Этот метод начинает игру
      */
     public void startGame() {
@@ -22,9 +27,8 @@ public class Manager {
         questionList = generator.getQuestionList();
         int numOfQuestion = 0;
         try {
-            Answers answer = new Answers();
             do {
-                askQuestion(questionList, numOfQuestion);
+                answer.askQuestion(questionList, numOfQuestion);
                 numOfQuestion++;
                 if (numOfQuestion == 30 ) {
                     System.out.println("YOU WON THE GAME!\n\nHERE IS YOUR PRIZE!!");
@@ -36,18 +40,6 @@ public class Manager {
             System.out.println(e);
             System.exit(-1);
         }
-    }
-
-    /**
-     * Этот метод задает игроку вопрос и предлагает 4 вариант ответа
-     * @param questionList список вопросов и ответов к нему
-     * @param numOfQuestion номер вопроса
-     */
-    public void askQuestion(ArrayList questionList, int numOfQuestion) {
-        System.out.println("Ask question " + numOfQuestion +  " method");
-        Answers answer = new Answers();
-        int chosenAnswer = answer.chooseAnswer(questionList, numOfQuestion);
-        answer.checkAnswerAndPrintResult(questionList.get(numOfQuestion).toString(), chosenAnswer, numOfQuestion);
     }
 
     /**

@@ -22,6 +22,17 @@ public class Answers {
     }
 
     /**
+     * Этот метод задает игроку вопрос и предлагает 4 вариант ответа
+     * @param questionList список вопросов и ответов к нему
+     * @param numOfQuestion номер вопроса
+     */
+    public void askQuestion(ArrayList questionList, int numOfQuestion) {
+        System.out.println("Ask question " + numOfQuestion +  " method");
+        int chosenAnswer = chooseAnswer(questionList, numOfQuestion);
+        checkAnswerAndPrintResult(questionList.get(numOfQuestion).toString(), chosenAnswer, numOfQuestion);
+    }
+
+    /**
      * Этот метод проверяет ответ и возврашает результат проверки
      * @param numOfAnswer номер выбранного варианта ответа
      * @param question вопрос, на который игрок дает ответ
